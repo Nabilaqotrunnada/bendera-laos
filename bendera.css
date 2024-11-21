@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.red {
+    background-color: #c8102e; /* Merah */
+    height: 33.33%; /* 1/3 dari tinggi bendera */
+}
+
+.blue {
+    background-color: #0033a0; /* Biru */
+    height: 33.33%; /* 1/3 dari tinggi bendera */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    background-color: #ffffff; /* Putih */
+    border-radius: 50%;
+    width: 60px; /* Diameter lingkaran */
+    height: 60px; /* Diameter lingkaran */
+    border: 5px solid #0033a0; /* Border biru di sekeliling lingkaran */
+}
+
+.red:last-child {
+    height: 33.33%; /* 1/3 dari tinggi bendera */
+}
